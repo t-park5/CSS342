@@ -1,0 +1,276 @@
+OK: bst1 != bst2
+OK: bst1 == bst2
+OK: bst1 contains d
+OK: bst1 does not contain x
+OK: adding g second time returns false
+OK: bst3 does not contain x
+OK: bst3 contains g
+OK: bst4 == bst2
+
+===== Automatic Tests: String Tree =====
+Adding "delta": Success
+Adding "alpha": Success
+Adding "epsilon": Success
+Adding "beta": Success
+Adding "gamma": Success
+Attempt to add duplicate ("alpha"): Fail (expected)
+Inorder Traversal: alpha beta delta epsilon gamma 
+Height: 3, Number of nodes: 5
+Search for "gamma": Found
+Search for "zeta": Not found
+
+Skewed tree height before rebalance: 7
+Skewed tree height after rebalance: 3
+Skewed tree (sideways):
+                g
+            f
+                e
+        d
+                c
+            b
+                a
+
+===== Automatic Tests: Integer Tree =====
+Adding 10: Success
+Adding 5: Success
+Adding 15: Success
+Adding 3: Success
+Adding 7: Success
+Adding 12: Success
+Adding 18: Success
+Attempt to add duplicate (10): Fail (expected)
+Inorder Traversal: 3 5 7 10 12 15 18 
+Height: 3, Number of nodes: 7
+Search for 7: Found
+Search for 20: Not found
+
+After copy constructor, are bstInt and its copy equal? Yes
+After clear, is bstInt empty? Yes
+After readTree, inorder traversal: 1 2 3 4 5 6 7 
+========================================
+
+treeMenuString
+1. Add
+2. Search
+3. Inorder traverse
+4. Height & Number of nodes
+5. Rebalance
+6. Add Multiple
+7. Clear tree
+8. Create tree from sorted array
+10. Exit
+>> 6
+Enter multiple strings: l k j h g f d s a
+Added l
+Added k
+Added j
+Added h
+Added g
+Added f
+Added d
+Added s
+Added a
+            s
+        l
+            k
+                j
+                    h
+                        g
+                            f
+                                d
+                                    a
+treeMenuString
+1. Add
+2. Search
+3. Inorder traverse
+4. Height & Number of nodes
+5. Rebalance
+6. Add Multiple
+7. Clear tree
+8. Create tree from sorted array
+10. Exit
+>> 4
+Height: 8
+Number of nodes: 9
+            s
+        l
+            k
+                j
+                    h
+                        g
+                            f
+                                d
+                                    a
+treeMenuString
+1. Add
+2. Search
+3. Inorder traverse
+4. Height & Number of nodes
+5. Rebalance
+6. Add Multiple
+7. Clear tree
+8. Create tree from sorted array
+10. Exit
+>> 5
+                s
+            l
+                k
+                    j
+        h
+                g
+            f
+                d
+                    a
+treeMenuString
+1. Add
+2. Search
+3. Inorder traverse
+4. Height & Number of nodes
+5. Rebalance
+6. Add Multiple
+7. Clear tree
+8. Create tree from sorted array
+10. Exit
+>> 3
+a d f g h j k l s 
+                s
+            l
+                k
+                    j
+        h
+                g
+            f
+                d
+                    a
+treeMenuString
+1. Add
+2. Search
+3. Inorder traverse
+4. Height & Number of nodes
+5. Rebalance
+6. Add Multiple
+7. Clear tree
+8. Create tree from sorted array
+10. Exit
+>> 2
+Enter a string: w
+Not Found w
+                s
+            l
+                k
+                    j
+        h
+                g
+            f
+                d
+                    a
+treeMenuString
+1. Add
+2. Search
+3. Inorder traverse
+4. Height & Number of nodes
+5. Rebalance
+6. Add Multiple
+7. Clear tree
+8. Create tree from sorted array
+10. Exit
+>> 2
+Enter a string: d
+Found d
+                s
+            l
+                k
+                    j
+        h
+                g
+            f
+                d
+                    a
+treeMenuString
+1. Add
+2. Search
+3. Inorder traverse
+4. Height & Number of nodes
+5. Rebalance
+6. Add Multiple
+7. Clear tree
+8. Create tree from sorted array
+10. Exit
+>> 7
+treeMenuString
+1. Add
+2. Search
+3. Inorder traverse
+4. Height & Number of nodes
+5. Rebalance
+6. Add Multiple
+7. Clear tree
+8. Create tree from sorted array
+10. Exit
+>> 8
+Enter multiple strings: h k n q r t u w x z
+                z
+            x
+                w
+                    u
+        t
+                r
+                    q
+            n
+                k
+                    h
+treeMenuString
+1. Add
+2. Search
+3. Inorder traverse
+4. Height & Number of nodes
+5. Rebalance
+6. Add Multiple
+7. Clear tree
+8. Create tree from sorted array
+10. Exit
+>> 4
+Height: 4
+Number of nodes: 10
+                z
+            x
+                w
+                    u
+        t
+                r
+                    q
+            n
+                k
+                    h
+treeMenuString
+1. Add
+2. Search
+3. Inorder traverse
+4. Height & Number of nodes
+5. Rebalance
+6. Add Multiple
+7. Clear tree
+8. Create tree from sorted array
+10. Exit
+>> 5
+                z
+            x
+                w
+                    u
+        t
+                r
+                    q
+            n
+                k
+                    h
+treeMenuString
+1. Add
+2. Search
+3. Inorder traverse
+4. Height & Number of nodes
+5. Rebalance
+6. Add Multiple
+7. Clear tree
+8. Create tree from sorted array
+10. Exit
+>> 10
